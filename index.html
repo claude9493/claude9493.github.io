@@ -1,17 +1,17 @@
 ---
 layout: default
-title: Claude
+title: Claude Zhang
 ---
 <h2>{{ page.title }}</h2>
-<p>Article</p>
+<p> My Articles </p>
 <ul>
 	{% for post in site.posts %}
 　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 　　{% endfor %}
 </ul>
 
-<section id="bottom">
+<div id="bottom">
 	<footer>
-		<p>Copyright 2017 Claude Zhang </p>
-		</fotter>
-</section>
+		<p>Copyright 2017 Claude Zhang</p>
+	</fotter>
+</div>
