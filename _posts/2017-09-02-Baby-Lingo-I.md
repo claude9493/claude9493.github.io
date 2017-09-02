@@ -1,13 +1,12 @@
-<font face = 等线>
 <h1>Baby Lingo I</h1>
 
 *I'm preparing for the CUMCM (a math modeling contest) and learning lingo software for solving optimization and graphic problem. So I  write down this series blog as my notes.*
 
 After reading this article, maybe you will know what's lingo and be able to solve  some simplest problem with lingo. 
 
-##1. Introduction
+## 1. Introduction
 
-Following content is from [www.lindo.com](http://www.lindo.com), Lindo System's website.
+Following content is from *[www.lindo.com](http://www.lindo.com)*, Lindo System's website.
 
 > Lingo is an optimization modeling software for linear, nonlinear, and integer programming.
 
@@ -17,11 +16,11 @@ For more information, you can visit its website or wiki.
 
 Using lingo to solve praticular problem, you first transfer the problem to mathematical form. Then transfer it to lingo code (lingo 'reads' problem by loading codes inputted). Just click the 'Solve' button, the results will be shown in a new tab. Following is a typical look of lingo.
 
-<img src="http://ovlm69ca3.bkt.clouddn.com/tripical_interface.png" alt="图片名称" align = center />
+![](http://ovlm69ca3.bkt.clouddn.com/tripical_interface.png)
 
 Codes, report and status panel are divided into different windows. And you can find that it is a total English software. '3' in the title 'LINGO3' means currently more than one lingo models exist, and this one is the third one, other two windows are of this model. In the 'Model' window, you edit your codes. In the 'Solver Status' window, some basic information of this model is shown. And the results are shown in the 'Report' window.
 
-##2. Basic Basic Grammar
+## 2. Basic Basic Grammar
 
 - `model:  ......  end` is the outtermost frame, all the work are done in this frame. Actually, it can be omitted.
 - Almost all sentences are ended with a semicolon `;`.
@@ -32,7 +31,7 @@ Codes, report and status panel are divided into different windows. And you can f
 ## 3. Read the Status Panel
 An example of Status Panel is shown in the previous figure, which is to simple to satisfy this section, so I put another figure below.
 
-<img src="http://ovlm69ca3.bkt.clouddn.com/example01.png" width = "270" height = "235" alt="图片名称" align = center />
+ ![](http://ovlm69ca3.bkt.clouddn.com/example01.png)
  
 Solver Status part briefly shows the type of the model and solution, result and some information of the process solving the problem. Probable display of State are 'Global Optimum', 'Local Optimum', 'Feasible', 'Infeasible', 'Unbounded', 'Undetermined' and 'Interrupted'. Objective row gives the value of resulting objective function.  Next row 'Infeasibility' is the amount of constraints not satisfied. Iterations is the times of iterations, which is not interested by us in simple problems.
 
@@ -62,6 +61,3 @@ Dual Price is the increment of profit when incresing one unit of the 'resource'.
 ## 5. Brief Summary
 
 Here is the most basic lingo. The core concept is transfer the problem to mathamatical form and transfer the math to the codes. What's more,  add `[NAME]` and `!COMMENT` in your code to meke it more readable. Using `x^2` **`^`** to represent power, you can solve problems more complex.
-
-
-</font> 
