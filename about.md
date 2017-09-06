@@ -1,10 +1,11 @@
 ---
 layout: page
-title: About
+title: About Me
 sidebar_link: true
 ---
 <p class="message">
-  Hello, I am <font face="Bradley Hand ITC">Claude Zhang</font>, from <a href="sustc.edu.cn">SUSTech</a>.<br>
+  <h1>About Me and My Blog</h1>
+  Hello, I am <font face="Bradley Hand ITC">Claude Zhang</font>, from <a href="http://sustc.edu.cn/en/">SUSTech</a>.<br>
   This is my blog.<br> 
   Recently I am trying to build it cuter and more academic.<br/>
   I know little about web development.<br>
@@ -15,5 +16,22 @@ sidebar_link: true
   I want to write a series of article to record my study path of learning Lingo.<br>
   So please pay attention to it.<br>
   I will also write some other blog basing on my interest and study.<br>
-  Thank you.
+  Thank you.<br>  
+  Following is my photo.<br/>
+  <img src = "http://ovlm69ca3.bkt.clouddn.com/ME.jpg" alt = "Me" />
 </p>
+<br>
+<p class="message">
+ <h1>Website Information and Thanks</h1>
+ I bought this domain(claude9493.name) from Wanwang. And I use git page as my server.<br/>
+ I use the Jekyll theme Hydeout as my blog's basic framework. This beautiful and useful theme is created by Andrew Fong.<br>
+ I store my figures and pictures in <a href="https://www.qiniu.com/">Qiniu</a>, It provided a large storage freely for user.<br>
+ Thanks those who are still writing blogs, encouraging me to create a blog.<br/>
+ Also thanks Github providing gitpages, making me not depressed with the high cost of server.<br/>
+ Thanks you as well. Thanks for noticing me.<br/>
+ 
+</p>
+<br>
+	
+
+
