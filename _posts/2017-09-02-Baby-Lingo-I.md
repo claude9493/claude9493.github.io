@@ -1,8 +1,15 @@
+---
+layout: post
+title: Baby Lingo I
+excerpt_separator:  <!--more-->
+---
 <h1>Baby Lingo I</h1>
 
 *I'm preparing for the CUMCM (a math modeling contest) and learning lingo software for solving optimization and graphic problem. So I  write down this series blog as my notes.*
 
 After reading this article, maybe you will know what's lingo and be able to solve  some simplest problem with lingo. 
+
+<!--more-->
 
 ## 1. Introduction
 

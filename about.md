@@ -3,10 +3,10 @@ layout: page
 title: About
 sidebar_link: true
 ---
-<h2> About Me <h2/>
 <p class="message">
-  Hello, I am Claude Zhang, from SUSTech.<br>
-  This is my blog. Recently I am trying to build it cuter and more academic.<br/>
+  Hello, I am <font face="Bradley Hand ITC">Claude Zhang</font>, from <a href="sustc.edu.cn">SUSTech</a>.<br>
+  This is my blog.<br> 
+  Recently I am trying to build it cuter and more academic.<br/>
   I know little about web development.<br>
   So I choose git pages and fork a theme.<br>
   I like analysing data and find something useful from them.<br>

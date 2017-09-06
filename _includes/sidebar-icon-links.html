@@ -1,53 +1,28 @@
 <nav id="sidebar-icon-links">
-  {% if site.github.repo %}
+
     <a id="github-link"
        class="icon" title="Github Project" aria-label="Github Project"
-       href="{{ site.github.repo }}">
+       href="github.com/claude9493">
       {% include svg/github.svg %}
     </a>
-    <a id="github-download-link"
-       class="icon" title="Download" aria-label="Download"
-       href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">
-      {% include svg/download.svg %}
+	
+	<a id="wechat-link"
+       class="icon" title="Wechat" aria-label="Wechat"
+       href="http://ovlm69ca3.bkt.clouddn.com/wechatQR.png">
+      {% include svg/wechat.svg %}
     </a>
-  {% endif %}
-
-  <a id="subscribe-link"
-     class="icon" title="Subscribe" aria-label="Subscribe"
-     href="{{ site.baseurl }}/feed.xml">
-    {% include svg/feed.svg %}
-  </a>
-
-  {% comment %}
-    Check if we have tag or search pages page active before linking to it.
-  {% endcomment %}
-  {% assign tags_page = false %}
-  {% assign search_page = false %}
-  {% for node in site.pages %}
-    {% if node.layout == "tags" %}
-      {% assign tags_page = node %}
-    {% elsif node.layout == "search" %}
-      {% assign search_page = node %}
-    {% endif %}
-  {% endfor %}
-
-  {% if tags_page %}
-    <a id="tags-link"
-       class="icon{% if page.url == '/tags' %} active{% endif %}"
-       title="Tags" aria-label="Tags"
-       href="{{ site.baseurl }}{{ tags_page.url }}">
-      {% include svg/tags.svg %}
+	
+	<a id="mail-link"
+       class="icon" title="Mail" aria-label="Mail"
+       href="mailto:claude9493@gmail.com">
+      {% include svg/mail.svg %}
     </a>
-  {% endif %}
-
-  {% if search_page %}
-    <a id="search-link"
-       class="icon{% if page.url == '/search' %} active{% endif %}"
-       title="Search" aria-label="Tags"
-       href="{{ site.baseurl }}{{ search_page.url }}">
-      {% include svg/search.svg %}
+  
+	<a id="NetEaseMusic-link"
+       class="icon" title="NetEase Music" aria-label="NetEase Music"
+       href="http://music.163.com/#/user/home?id=49424453">
+      {% include svg/NetEasemusic.svg %}
     </a>
-  {% endif %}
-
+	
   {% include custom-icon-links.html %}
 </nav>
