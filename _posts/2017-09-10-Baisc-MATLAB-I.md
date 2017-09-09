@@ -13,6 +13,7 @@ Here is part of my notes of matlab taken in the Greencity summer camp. May it he
 	- Esc 删除光标所在行的全部内容
 	- Ctrl+k 删除光标到行尾的内容
 	- Ctrl+c 强行终止程序的运行
+<!--more-->
 - 帮助
 	- help 显示注释
 	- type M-文件名
@@ -25,7 +26,6 @@ Here is part of my notes of matlab taken in the Greencity summer camp. May it he
 	- path：设置matlab的搜索路径
 	- cd：查询或改变路径
 	- which m-文件名：显示该文件所在子目录的路径
-<!--more-->
 - 储存与调出
 	- save：储存工作数据
 	- load：调用工作数据
