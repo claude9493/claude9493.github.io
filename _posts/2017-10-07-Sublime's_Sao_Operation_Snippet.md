@@ -1,3 +1,8 @@
+---
+layout: post
+title: Baby Lingo I
+excerpt_separator:  <!--more-->
+---
 # Sublime's Sao Operation - Snippet
 
   
@@ -12,7 +17,7 @@ Recently, I'm writing lots of codes, which shares a similarly structure. Like th
     }
 
 Writing it again and again sometimes interputs my thinking.
-
+<!--more-->
 
 ## Sao Operation
 
