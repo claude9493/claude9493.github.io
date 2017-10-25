@@ -4,9 +4,12 @@ title: fflush(stdin);
 excerpt_separator:  <!--more-->
 ---
 # `fflush(stdin);`
+
 	**Segmentation Fault** in my C HW has puzzled me for a long time. 
 	Today, I managed to solve the problem and almost finish my HW.
+
 <!--more-->
+
 ### Part I. My C HW
 This semester, I took the course CS205 C/C++. Its Lab2 asked us to make a program which can calclute distance between arbitary two cities from provided data file.
 You can download the description file 
@@ -27,6 +30,7 @@ In today's lab, I asked my teacher for help, he told me to add `fflush(stdin);` 
 When I use scanf to read a city's name from the keyboard, I write like this: 
 	
 	scanf("%[^\n]", input);
+
 It works well in the aspect of reading city whose name consists blank, like New York City, Hong Kong. 
 
 But in the deep of computer, the ingored `\n` still exists in the **buffer**. So in the next time the program meets `scanf()` statement, the newline is readed first. Then whatever input is missed. Because it immedaitely go ahead and run following statements. 
