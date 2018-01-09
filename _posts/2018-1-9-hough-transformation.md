@@ -18,7 +18,7 @@ Returning to the original intention of Hough transformation, it was first invent
 Actually only about twenty years after Hough patented his transformation method, an enhanced version of Hough transformation which was able to detect arbitrary shapes was proposed by D. H. Ballard in 1980. In his paper, he identified the principle of the generalization process which was mapping from edge space to accumulator space described as a table of edge-orientation reference-point correspondence termed an R-table. He also gave some examples of such algorithm (Ballard. 1981). Thanks to this research, Hough transformation was able to be applied to more complex situations but this method was limited by its high costs of computing power which restricted its applications in other fields at that time.
 Till now five applications of Hough transformation are introduced above, which strongly proved the hypothesis of this article. The studies on Hough transformation made it possible to let machines automate recognizing patterns in terms of building roof, person’s head, blood cells or subatomic particles (Tarsha-Kurdi, F. 2007. Liu. H. 2010. Guan, P. P. 2011. CALICE collaboration. 2017. Ballard. 1981). Thanks to Hough transformation, possible solutions to one of the three ‘R’s (Recognition, Reconstruction and Reorganization) about computer vision (Malik, J. 2016) is given. In further research, the Hough transformation will keep popular in academic research and combine with Neural network, artificial intelligence and many other new technologies.
  
-References
+## References
 
 - Ballard, D. H. (1981). Generalizing the Hough transform to detect arbitrary shapes. Pattern recognition, 13(2), 111-122.
 
@@ -26,15 +26,15 @@ References
 
 - Guan, P. P., & Yan, H. (2011). Blood cell image segmentation based on the Hough transform and fuzzy curve tracing. International Conference on Machine Learning and Cybernetics (Vol.4, pp.1696-1701). IEEE.
 
--Hough, P.V.C. (1962, December 18). METHOD AND MEANS FOR RECOGNIZING COMPLEX PATTERNS. United States.
+- Hough, P.V.C. (1962, December 18). METHOD AND MEANS FOR RECOGNIZING COMPLEX PATTERNS. United States.
 
--Liu, H., Qian, Y., & Lin, S. (2010). Detecting Persons using Hough Circle Transform in Surveillance Video. Visapp 2010 - Proceedings of the Fifth International Conference on Computer Vision Theory and Applications, Angers, France, May (pp.267-270). DBLP.
+- Liu, H., Qian, Y., & Lin, S. (2010). Detecting Persons using Hough Circle Transform in Surveillance Video. Visapp 2010 - Proceedings of the Fifth International Conference on Computer Vision Theory and Applications, Angers, France, May (pp.267-270). DBLP.
 
--Malik, J., Arbeláez, P., Carreira, J., Fragkiadaki, K., Girshick, R., Gkioxari, G., ... & Tulsiani, S. (2016). The three R’s of computer vision: Recognition, reconstruction and reorganization. Pattern Recognition Letters, 72, 4-14.
+- Malik, J., Arbeláez, P., Carreira, J., Fragkiadaki, K., Girshick, R., Gkioxari, G., ... & Tulsiani, S. (2016). The three R’s of computer vision: Recognition, reconstruction and reorganization. Pattern Recognition Letters, 72, 4-14.
 
--Mukhopadhyay, P., & Chaudhuri, B. B. (2015). A survey of Hough Transform. Pattern Recognition, 48(3), 993-1010.
+- Mukhopadhyay, P., & Chaudhuri, B. B. (2015). A survey of Hough Transform. Pattern Recognition, 48(3), 993-1010.
 
--Tarsha-Kurdi, F., Landes, T., & Grussenmeyer, P. (2007, September). Hough-transform and extended ransac algorithms for automatic detection of 3d building roof planes from lidar data. In ISPRS Workshop on Laser Scanning 2007 and SilviLaser 2007 (Vol. 36, pp. 407-412).
+- Tarsha-Kurdi, F., Landes, T., & Grussenmeyer, P. (2007, September). Hough-transform and extended ransac algorithms for automatic detection of 3d building roof planes from lidar data. In ISPRS Workshop on Laser Scanning 2007 and SilviLaser 2007 (Vol. 36, pp. 407-412).
 
 
 
