@@ -5,7 +5,7 @@ sidebar_link: true
 ---
 <h1>About Me and My Blog</h1>
 <p class="message">
-  Hello, I am <font face="Bradley Hand ITC">Claude Zhang</font>, from <a href="http://sustc.edu.cn/en/">SUSTech</a>.<br>
+  Hello, I am <font face="Bradley Hand ITC">Yun Zhang</font>, from <a href="http://sustc.edu.cn/en/">SUSTech</a>.<br>
   This is my blog.<br> 
   Recently I am trying to build it cuter and more academic.<br/>
   I know little about web development.<br>
@@ -28,7 +28,7 @@ sidebar_link: true
  I bought this domain(claude9493.name) from Wanwang. And I use git page as my server.<br/>
  I use the Jekyll theme Hydeout as my blog's basic framework. This beautiful and useful theme is created by Andrew Fong.<br>
  I store my figures and pictures in <a href="https://www.qiniu.com/">Qiniu</a>, It provided a large storage freely for user.<br>
- Thanks those who are still writing blogs, encouraging me to create a blog.<br/>
+ Thanks those who are still writing blogs, encouraging me to start a blog.<br/>
  Also thanks Github providing gitpages, making me not depressed with the high cost of server.<br/>
  Thanks you as well. Thanks for noticing me.<br/>
 </p>
