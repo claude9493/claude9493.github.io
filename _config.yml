@@ -3,8 +3,8 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            C.Zhang
-tagline:          'My Blog'
+title:            Yun Zhang
+tagline:          'Blog'
 description:      'I am Claude Zhang. Welcome to my blog.'
 url:              http://claude9493.name/
 baseurl:          # the optional subpath of your site, e.g. "/blog"
@@ -14,7 +14,7 @@ baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # sidebar_blog_link below.
 
 author:
-  name:           'Claude Zhang'
+  name:           'Yun Zhang'
   url:            http://claude9493.name/
 
 paginate:         5
