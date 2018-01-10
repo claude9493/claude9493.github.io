@@ -3,7 +3,7 @@ layout: post
 title: Baby Lingo I
 excerpt_separator:  <!--more-->
 ---
-<h1>Baby Lingo I</h1>
+<!-- Baby Lingo I -->
 
 *I'm preparing for the CUMCM (a math modeling contest) and learning lingo software for solving optimization and graphic problem. So I  write down this series blog as my notes.*
 
