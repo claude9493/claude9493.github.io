@@ -4,7 +4,7 @@ title: Hough transformation and its broad applications
 excerpt_separator:  <!--more-->
 ---
 
-# Hough transformation and its broad applications
+<!-- Hough transformation and its broad applications -->
 
 Hough transformation, an efficient method for recognizing complicated pattern (Hough, P.V.C. 1962), is one of the most essential algorithms in the field of computer vision. It was invented by Hough who was an American engineer working in an atomic energy researching institute in 1962 and advanced and extended by many researchers after it being invented. <!--more-->This method is applied in plenty fields which have to face the puzzle of pattern recognizing, including geography, traffic, biological engineering and physics (Tarsha-Kurdi, F. 2007. Liu. H. 2010. Guan, P. P. 2011. CALICE collaboration. 2017. Ballard. 1981), which fully shows importance of this method. In this present paper, some examples of Hough transformation's application in diverse fields are reviewed to present its principle and function.
 - - - -
