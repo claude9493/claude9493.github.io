@@ -3,7 +3,7 @@ layout: post
 title: Basic MATLAB I
 excerpt_separator:  <!--more-->
 ---
-<h1>Basic MATLAB I</h1>
+<!-- <h1>Basic MATLAB I</h1> -->
 Here is part of my notes of matlab taken in the Greencity summer camp. May it helpful to you.<br/>
 - 退出matlab
 	- quit
