@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            Yun Zhang
 tagline:          'Blog'
-description:      'I am Claude Zhang. Welcome to my blog.'
+description:      'I am Yun Zhang. Welcome to my blog.'
 url:              http://claude9493.name/
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
@@ -14,7 +14,7 @@ baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # sidebar_blog_link below.
 
 author:
-  name:           'Yun Zhang'
+  name:           'Y.Zhang'
   url:            http://claude9493.name/
 
 paginate:         5
