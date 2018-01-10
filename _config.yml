@@ -3,7 +3,7 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Yun Zhang
+title:            Y.Zhang
 tagline:          'Blog'
 description:      'I am Yun Zhang. Welcome to my blog.'
 url:              http://claude9493.name/
