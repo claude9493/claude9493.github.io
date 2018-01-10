@@ -100,3 +100,7 @@ Sorry for no figure. Because I am lazy.
 I advise you to use some short and easy to remember tabTrigger s.
 
 Happy national holidays. I have been to `Guangzhou` this holiday.
+
+
+## Comments from 2018
+In the DSAA course in 2017 autumn seamaster, we are asked to repeat our algorithm several times (T times), and always I include the head file <bits.stdc++.h> and some others. So it's convininent to use a such snippet to reduce the time using on writing same thing.
