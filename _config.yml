@@ -3,9 +3,9 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Y.Zhang
+title:            Deep of Darkness
 tagline:          'Blog'
-description:      'I am Yun Zhang. Welcome to my blog.'
+description:      'I am Claude Zhang. Welcome to my blog.'
 url:              http://claude9493.name/
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
