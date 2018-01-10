@@ -3,10 +3,10 @@ layout: post
 title: fflush(stdin);
 excerpt_separator:  <!--more-->
 ---
-# `fflush(stdin);`
+<!-- `fflush(stdin);` -->
 
-	**Segmentation Fault** in my C HW has puzzled me for a long time. 
-	Today, I managed to solve the problem and almost finish my HW.
+**Segmentation Fault** in my C HW has puzzled me for a long time. 
+Today, I managed to solve the problem and almost finish my HW.
 
 <!--more-->
 
