@@ -3,11 +3,7 @@ layout: post
 title: What we talk about when we're talking about probability I
 excerpt_separator:  <!--more-->
 ---
-~~ <script type="text/x-mathjax-config">
-~~ MathJax.Hub.Config({tex2jax: {inlineMath:[['$','$']]}});
-~~ </script>
-~~ <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
- 
+<script type="text/javascript"<src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
 
 I have learnt probability last semester, with lecturer Anyue Chen. And finally I
 got a 'B'.
