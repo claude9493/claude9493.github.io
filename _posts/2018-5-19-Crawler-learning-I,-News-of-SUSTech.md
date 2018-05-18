@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Crawler learning case I, News of SUSTech
+title: Crawler learning I, News of SUSTech
 excerpt_separator:  <!--more-->
 ---
 ### Background
