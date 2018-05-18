@@ -17,8 +17,9 @@ In the case, I only considered the Chinese news of SUSTech. But the idea and cod
 
 First, let's make clear where are the news titles. They are in the pages http://sustc.edu.cn/news_events_/p/*, the star sign represents the page number. Till now, there are totally 178 pages of Chinese news, which are from 2013 to 2018.
 		
-		base_url = 'http://sustc.edu.cn/news_events_/p/'
-		titles = []
+	base_url = 'http://sustc.edu.cn/news_events_/p/'
+	titles = []
+		
 We will use a loop to visit all pages. `base_url` stores the same part of the urls we will crawler. And the titles we get will be added to `titles` iteratively.
 
 ### A Simple Demo
