@@ -3,9 +3,9 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Eyes
+title:            昀
 tagline:          'Blog'
-description:      'I am Claude Zhang. Welcome to my blog.'
+description:      ''
 url:              http://claude9493.name/
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
@@ -15,7 +15,7 @@ baseurl:          # the optional subpath of your site, e.g. "/blog"
 
 author:
   name:           'Y.Zhang'
-  url:            http://claude9493.name/
+  url:            http://claude9493.com/
 
 paginate:         5
 # paginate_path:    '/page:num'
