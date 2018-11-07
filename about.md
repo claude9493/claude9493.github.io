@@ -14,8 +14,8 @@ sidebar_link: true
   Following is my photo, taken in the spring of 2017.<br/>
   </p>
   <img src = "http://ovlm69ca3.bkt.clouddn.com/ME.jpg" alt = "Me" width="320" height="320" />
-  <p>
-  Hello, 这里是张昀的博客. 本人目前在南科大数学系统计专业读大三, 这个博客是用 Gitpage 实现的, 目前写了几篇笔记和心得, 关于学习中遇到的问题和几个我感兴趣的点. 上面那张是我的照片, 2017年春天拍的.<br>
+  <p class = "message">
+  Hello, 这里是张昀的博客. 本人目前在南科大数学系统计专业读大三, 这个博客是用 Gitpage 实现的, 目前写了几篇笔记和心得, 关于学习中遇到的问题和几个我   感兴趣的点. 上面那张是我的照片, 2017年春天拍的.<br>
   </p>
   <blockquote><font face = "STFangsong">
     大雨落幽燕, 白浪滔天, 秦皇岛外打鱼船. 一片汪洋都不见, 知向谁边?<br>
