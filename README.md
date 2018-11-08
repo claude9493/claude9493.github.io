@@ -1,3 +1,8 @@
+# 介绍在about.md里 Introduction to my blog is in aboud.md
+
+这个readme是模板原来带的, 不待要改了, 嘻嘻. This readme file is in the original template, I'd not like to remove it:)
+
+
 # Hydeout
 
 Hydeout updates the original [Hyde](https://github.com/poole/hyde)
