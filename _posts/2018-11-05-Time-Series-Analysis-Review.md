@@ -78,9 +78,9 @@ AR(1), AR(2): Autocovariance 和 Autocorrelation 的推导
 - 在算$$Cov(Y_t, Y_{t-1})$$ 的时候别忘了$$Y_{t-1}$$ 和 $$Y_{t-2}$$之间的关系
 - When calculating $$\gamma_k$$ of AR(p), it's useful to assume $$\mu = 0$$ and multiple $$Y_{t-k}$$ in both sides of the equation which defines the model.
 - Stationary Conditions
-    - AR(1): $$Y_t = \phi Y_{t-1} + e_{t-1}, |\phi| < 1$$
+    - AR(1): $$Y_t = \phi Y_{t-1} + e_{t-1}, \left|\phi\right| < 1$$
     - AR(p): the roots of AR characteristic equation $$\phi(x) = 0$$ each exceed 1 in absolute value.
-    - AR(2): $$\phi_1+\phi_2 < 1, \phi_2-\phi_1 < 1, |\phi_2| < 1$$
+    - AR(2): $$\phi_1+\phi_2 < 1, \phi_2-\phi_1 < 1, \left|\phi_2\right| < 1$$
 
 ##### Backshift operator
 $$BX_t = X_{t-1}$$
@@ -131,8 +131,8 @@ $$(x^\lambda-1)/\lambda\rightarrow log(x) as \lambda\rightarrow 0$$
 - Reciprocal transformation $$g(x) = 1/(1-x)$$, $$\lambda = -1$$.
 
 ## Chapter 6
-$$r_k \rightarrow N(\rho_k, c_{kk}/n)$$, $$Corr(r_k, r_j) \aprox \frac{c_{kj}}{c_{kk}c_{jj}}$$
-For MA(q), $$c_{kk} = 1+2\sum_{j=1}^{q}\rho_j^2, for k > q$$, $$Var(r_k)\aprox \frac{1}{n}[1+2\sum_{j=1}^{q}\rho_j^2] for k > q$$
+$$r_k \rightarrow N(\rho_k, c_{kk}/n)$$, $$Corr(r_k, r_j) \approx \frac{c_{kj}}{c_{kk}c_{jj}}$$
+For MA(q), $$c_{kk} = 1+2\sum_{j=1}^{q}\rho_j^2, for k > q$$, $$Var(r_k)\approx \frac{1}{n}[1+2\sum_{j=1}^{q}\rho_j^2] for k > q$$
 ![](/images/posts/2018-11-05-Time-Series-Analysis-Review-2.png)
 #### 模型定阶
 ![](/images/posts/2018-11-05-Time-Series-Analysis-Review-3.png)
