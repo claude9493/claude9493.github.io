@@ -78,9 +78,9 @@ AR(1), AR(2): Autocovariance 和 Autocorrelation 的推导
 - 在算$$Cov(Y_t, Y_{t-1})$$ 的时候别忘了$$Y_{t-1}$$ 和 $$Y_{t-2}$$之间的关系
 - When calculating $$\gamma_k$$ of AR(p), it's useful to assume $$\mu = 0$$ and multiple $$Y_{t-k}$$ in both sides of the equation which defines the model.
 - Stationary Conditions
-    - AR(1): $$Y_t = \phi Y_{t-1} + e_{t-1}, \left|\phi\right| < 1$$
+    - AR(1): $$Y_t = \phi Y_{t-1} + e_{t-1}  \left|\phi\right| < 1$$
     - AR(p): the roots of AR characteristic equation $$\phi(x) = 0$$ each exceed 1 in absolute value.
-    - AR(2): $$\phi_1+\phi_2 < 1, \phi_2-\phi_1 < 1, \left|\phi_2\right| < 1$$
+    - AR(2): $$\phi_1+\phi_2 < 1, \phi_2-\phi_1 < 1  \left|\phi_2\right| < 1$$
 
 ##### Backshift operator
 $$BX_t = X_{t-1}$$
