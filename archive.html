@@ -1,0 +1,11 @@
+---
+layout: page
+title : Posts
+header : All posts
+---
+{% include pluger/setup %}
+
+{% assign posts_collate = site.posts %}
+<div class="page card">
+{% include pluger/posts_collate %}
+</div>
