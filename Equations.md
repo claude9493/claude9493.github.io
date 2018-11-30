@@ -21,7 +21,7 @@ x^{(t+1)} = x^{(t)} - \frac{f(x^{t})}{f'(x^{(t)})}
 $$
 
 $$
-\hat{\beta} = (\mathbf{X'X})^{-1}\mathbf{X'y}
+\hat{\mathbf{\beta}} = (\mathbf{X'X})^{-1}\mathbf{X'y}
 $$
 
 
