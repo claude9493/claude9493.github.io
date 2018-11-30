@@ -22,7 +22,11 @@ Thanks to the help from Iydon, it seems that I get to know how to use mathjax in
     - if the joint distribution of $$Y_{t_1}, Y_{t_2},...,Y_{t_n}$$  is the same as the joint distribution of $$Y_{t_1-k}, Y_{t_2-k},...,Y_{t_n-k}$$ for all choices of time $$t_1, t_2, ..., t_n$$ and all choices of time lags $$k$$
     - White noise $${e_t}$$ [A sequence of i.i.d random variables] is strictly stationary
     - $$\gamma_{t,s} = \gamma_{0,|t-s|} = \gamma_{k}, k = |t-s|$$
-    - Properties: $$\gamma_0 = Var(Y_t)\qquad\rho_0 = 1\qquad\gamma_k = \gamma_{-k}\qquad |\gamma_k|\leq\gamma_0, |\rho_k|\leq1$$
+    - Properties
+      - $$\gamma_0 = Var(Y_t)$$
+      - $$\rho_0 = 1$$
+      - $$\gamma_k = \gamma_{-k}$$
+      - $$|\gamma_k|\leq\gamma_0, |\rho_k|\leq1$$
 - Weak stationaity
     - $$E(Y_t) = c$$, $$c$$ is a constant, $$\gamma_{t,t-k} = \gamma_{0,k}$$ for all time $$t$$ and lag $$k$$
     - A strictly stationary process with finite variance must be a weak stationary process
@@ -74,9 +78,10 @@ AR(1), AR(2): Autocovariance 和 Autocorrelation 的推导
 - 在算$$Cov(Y_t, Y_{t-1})$$ 的时候别忘了$$Y_{t-1}$$ 和 $$Y_{t-2}$$之间的关系
 - When calculating $$\gamma_k$$ of AR(p), it's useful to assume $$\mu = 0$$ and multiple $$Y_{t-k}$$ in both sides of the equation which defines the model.
 - Stationary Conditions
-    - AR(1): $$Y_t = \phi Y_{t-1} + e_{t-1}$$, $$|\phi| < 1$$
+    - AR(1): $$Y_t = \phi Y_{t-1} + e_{t-1}, |\phi| < 1$$
     - AR(p): the roots of AR characteristic equation $$\phi(x) = 0$$ each exceed 1 in absolute value.
     - AR(2): $$\phi_1+\phi_2 < 1, \phi_2-\phi_1 < 1, |\phi_2| < 1$$
+
 ##### Backshift operator
 $$BX_t = X_{t-1}$$
 $$\phi(B)Y_t = \phi_0+e_t$$, AR polynomial. For AR(2), $$\phi(B) = 1-\phi_1B-\phi_2B^2$$
@@ -87,6 +92,7 @@ Consider whether the reverse operator $$\Phi^{-1}(B)$$ exists.
 If exists, $$Y_t = \Phi^{-1}(B)\phi_0 + \Phi^{-1}(B)e_t$$
 ##### Yule-Walker equations
 什么东东?
+
 ### ARMA(p,q)
 $$Y_t = \phi_1Y_{t-1}+\phi_2Y_{t-2}+...+\phi_pY_{t-p}+e_t-\theta_1e_{t-1}-\theta_2e_{t-2}-...-\theta_qe_{t-q}, \phi_p\neq0, \theta_q\neq0$$
 $$\phi(B)Y_t = \theta(B)e_t$$, $$\phi(B) = 1 - \phi_1B - \phi_2B^2 - ... - \phi_pB^p$$, $$\theta(B) = 1 - \theta_1B - \theta_2B^2 - ... - \theta_qB^q$$.
@@ -103,9 +109,9 @@ Under reversible condition, $$\theta^{-1}(B)$$ exists.
 $$\theta^{-1}(B)\phi(B)Y_t = \theta^{-1}(B)\phi_0+e_t$$
 ##### Useful Taylor Equation
 $$\frac{1}{1-x} = 1 + x + x^2 + x^3 + ...$$
+
 ## Chapter 5
 ##### Nonstationary stochastic process
-
 #### ARIMA(p,d,q)
 $${Y_t}$$ is called an integrated autoregressive moving average model if the d-th difference $$W_t = \triangledown^dY_t$$ is a stationary ARMA(p,q), denoted by ARIMA(p,d,q).
 $$\phi(L)(1-L)^dY_t = \theta(L)e_t$$
