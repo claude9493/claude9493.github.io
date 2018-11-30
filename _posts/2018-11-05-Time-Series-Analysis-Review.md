@@ -4,14 +4,14 @@ title: Time Series Analysis Midterm Review
 excerpt_separator:  <!--more-->
 ---
 
-<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
-
 I'm reviewing the TSA for tomorrw's midterm. And I wrote some notes of markdown format in the application wiz-notes. And I'd like to see whether the math formulas can be displayed as desired on my blog. And I give up to try mathjax temporarily...  I decide to put a long figure below.
 
 Update 2018-11-30:
 
 Thanks to the help from Iydon, it seems that I get to know how to use mathjax in gitpages. So let's try it.
 <!--more-->
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+
 ## Chapter 2
 ### Some functions
 - Mean function: $\mu_t = E(Y_t)$
