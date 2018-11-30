@@ -74,7 +74,7 @@ AR(1), AR(2): Autocovariance 和 Autocorrelation 的推导
 - 在算$$Cov(Y_t, Y_{t-1})$$ 的时候别忘了$$Y_{t-1}$$ 和 $$Y_{t-2}$$之间的关系
 - When calculating $$\gamma_k$$ of AR(p), it's useful to assume $$\mu = 0$$ and multiple $$Y_{t-k}$$ in both sides of the equation which defines the model.
 - Stationary Conditions
-    - AR(1): $$Y_t = \phi Y_{t-1} + e_{t-1}$$ $$|\phi| < 1$$
+    - AR(1): $$Y_t = \phi Y_{t-1} + e_{t-1}$$, $$|\phi| < 1$$
     - AR(p): the roots of AR characteristic equation $$\phi(x) = 0$$ each exceed 1 in absolute value.
     - AR(2): $$\phi_1+\phi_2 < 1, \phi_2-\phi_1 < 1, |\phi_2| < 1$$
 ##### Backshift operator
@@ -114,8 +114,8 @@ ARIMA process can be expressed as the summation of ARMA process.
 If $${Y_t}$$ is an ARIMA(p,1,q), $$W_t = Y_t - Y_{t-1}$$, $$W_t = \phi_1W_{t-1} + \phi_2W_{t-2}+...+\phi_pW_{t-p}+e_t-\theta_1e_{t-1}-...-\theta_qe_{t-q}$$
 $$\phi(x) = (1-\phi_1x-\phi_2x^2-...-\phi_px^p)(x-1) = 0$$ includes the root $$x=1$$, which implies $${Y_t}$$ is not stationary.
 - IMA(2,2): $$\triangledown^2Y_t = e_t-\theta_1e_{t-1}-\theta_2e_{t-2}$$ equivalently, $$Y_t = 2Y_{t-1}-Y_{t-2}+e_t-\theta_1e_{t-1}-\theta_2e_{t-2}$$.
-- ARI(1,1): $$Y_t-Y_{t-1} = \phi(Y_{t-1}-Y_{t-2})+e_t, |\phi|<1$$, equivalently, $$Y_t = (1_\phi)Y_{t-1}-\phi Y_{t-2}+e_t$$, $$\phi(x) = 1-(1+\phi)x+\phi x^2 = (1-x)(1-\phi x)$$
-#### $$\psi$$ weights and $$\pi$$ weights
+- ARI(1,1): $$ Y_t-Y_{t-1} = \phi(Y_{t-1}-Y_{t-2})+e_t, |\phi|<1 $$, equivalently, $$ Y_t = (1_\phi)Y_{t-1}-\phi Y_{t-2}+e_t $$, $$\phi(x) = 1-(1+\phi)x+\phi x^2 = (1-x)(1-\phi x)$$
+#### $$\psi $$ weights and $$\pi$$ weights
 把ARMA 写成 AR($$\infty$$) 或 MA($$\infty$$) 后的系数.
 #### Other transformation
 - Percentage changes & logarithm transformation: $$Y_t = (1+X_t)Y_{t-1}$$, $$\triangledown log(Y_t) \approx X_t$$
