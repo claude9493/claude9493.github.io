@@ -5,7 +5,24 @@ sidebar_link: true
 ---
 {% include pluger/setup %}
 
-{% assign posts_collate = site.posts %}
-<div class="page card">
-{% include pluger/posts_collate %}
+<div class="content">
+  {% include pagination-newer.html %}
+
+  {{ content }}
+
+
+<br/>
+  {% for post in paginator.posts %}
+  <article class="post-body">
+    <h2 class="post-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{post.title}}
+      </a>
+    </h2>
+    {% include post-meta.html post=post %}
+
+  </article>
+  {% endfor %}
+
+  {% include pagination-older.html %}
 </div>
