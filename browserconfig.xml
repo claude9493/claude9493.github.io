@@ -4,7 +4,8 @@
         <tile>
             <square150x150logo src="/mstile-150x150.png"/>
             <square310x310logo src="/mstile-310x310.png"/>
-            <TileColor>#2b5797</TileColor>
+            <TileColor>#B5B3A6</TileColor>
         </tile>
     </msapplication>
 </browserconfig>
+181, 179, 166
