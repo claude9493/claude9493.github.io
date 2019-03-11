@@ -18,11 +18,11 @@ return(as.inteer(prior.var(a,b) < post.var(a,b)))
 At that moment, I thought of whether there is a " ? : " operator in R. After a failed try, I searched it on Google.
 ![Failed try](/images/posts/2019-3-11-R-ternary-operator-1.png)
 
-And I found that the built-in "ternary operator" of R is `ifelse(test, yes, no)`, which does have the similar function with ` ? : `.
+And I found that the built-in "ternary operator" of R is `ifelse(test, yes, no)`, which does have the similar function with `? :`.
 
 ## More
 
-Moreover, A definition of C-style ` ? : ` R-function is given in [this stack overflow post](https://stackoverflow.com/questions/8790143/does-the-ternary-operator-exist-in-r).
+Moreover, A definition of C-style `? :` R-function is given in [this stack overflow post](https://stackoverflow.com/questions/8790143/does-the-ternary-operator-exist-in-r).
 
 ```
 `?` <- function(x, y)
@@ -54,6 +54,6 @@ I have to say that this fucntion is excellent.
 
 The new semester (second half of my junior year) has startred for 3 weeks. 
 
-In the past 3 months, I realized an online [Jupyter notebook](119.29.186.218:6060) on my cloud server by docker, in which I learnt alot about docker and the computer networks.
+In the past 3 months, I realized an online [Jupyter notebook](http://119.29.186.218:6060) on my cloud server by docker, in which I learnt alot about docker and the computer networks.
 
 This weekend, I will participate TOEFL second time, good luck to me.
