@@ -48,4 +48,12 @@ Finally the `sapply()` returns a vector of two expressions which is stated befor
 
 The outer `eval()` evaluate the choosen expression and returns the final result.
 
-I hve to say that this fucntion is excellent.
+I have to say that this fucntion is excellent.
+
+## Recently
+
+The new semester (second half of my junior year) has startred for 3 weeks. 
+
+In the past 3 months, I realized an online [Jupyter notebook](119.29.186.218:6060) on my cloud server by docker, in which I learnt alot about docker and the computer networks.
+
+This weekend, I will participate TOEFL second time, good luck to me.
