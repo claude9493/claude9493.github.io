@@ -1,4 +1,4 @@
-As a problem in my Bayesian Statistics Homework, I am asked tofind a example where the posterior variance is larger than the prior distribution. I decided to write R code to solve it.
+As a problem in my Bayesian Statistics Homework, I was asked to find an example where the posterior variance is larger than the prior distribution. I decided to write R code to solve it.
 
 When writing my code, I need to compare the two calculated variances in a fucntion. Firstly, I write as below:
 
@@ -7,7 +7,7 @@ If (prior.var(a,b) < post.var(a,b)){return(1)}
 return(0)
 ```
 
-I aware that it's not brief, so I rewrite it:
+I aware that it's not brief immediatly, so I rewrite it:
 
 ```
 return(as.inteer(prior.var(a,b) < post.var(a,b)))
@@ -57,3 +57,5 @@ The new semester (second half of my junior year) has startred for 3 weeks.
 In the past 3 months, I realized an online [Jupyter notebook](http://119.29.186.218:6060) on my cloud server by docker, in which I learnt alot about docker and the computer networks.
 
 This weekend, I will participate TOEFL second time, good luck to me.
+
+A good news: The Department of Statistics will be established officialy in September. Maybe I will be graduate student of the first session in SUSTech Statistics Department :)
