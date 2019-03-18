@@ -11,6 +11,10 @@ N(x|\mu,\sigma^2) = \frac{1}{\sqrt{2\pi}\sigma}\text{exp}\left[-\frac{(x-\mu)^2}
 $$
 
 $$
+\varphi\left[E(X)\right] \geq E\left[\varphi(X)\right]
+$$
+
+$$
 C + Ee^{-rT} = P + S
 $$
 
