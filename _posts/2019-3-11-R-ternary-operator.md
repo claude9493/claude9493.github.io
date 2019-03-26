@@ -50,7 +50,7 @@ The outer `eval()` evaluate the choosen expression and returns the final result.
 
 I have to say that this fucntion is excellent.
 
-## Recently
+## Recently 
 
 The new semester (second half of my junior year) has startred for 3 weeks. 
 
