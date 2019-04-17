@@ -1,6 +1,16 @@
-#### 介绍在about.md里 //Introduction to my blog is in aboud.md
 
-这个readme是模板原来带的, 不待要改了. This readme file is in the original template, I'd not like to remove it:)
+   ________    ___   __  ______  __________  __ __  ____ _____
+  / ____/ /   /   | / / / / __ \/ ____/ __ \/ // / / __ \__  /
+ / /   / /   / /| |/ / / / / / / __/ / /_/ / // /_/ /_/ //_ < 
+/ /___/ /___/ ___ / /_/ / /_/ / /___ \__, /__  __/\__, /__/ / 
+\____/_____/_/  |_\____/_____/_____//____/  /_/  /____/____/  
+
+
+# Claude9493.com
+
+这个仓库存着我的网站的文件. Files of my blog is stored in this repositories.
+
+这个readme文件来自原模板. This readme file is in the original template.
 
 
 # Hydeout
