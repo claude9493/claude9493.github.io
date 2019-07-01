@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>GPA</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="fa51485883664db9a4ec133ff8c4593c" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_fa51485883664db9a4ec133ff8c4593c = echarts.init(
+            document.getElementById('fa51485883664db9a4ec133ff8c4593c'), 'white', {renderer: 'canvas'});
+        var option_fa51485883664db9a4ec133ff8c4593c = {
+    "backgroundColor": "#ffffff",
+    "color": [
+        "#004548",
+        "#00b9b5",
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "bar",
+            "name": "Overall GPA",
+            "yAxisIndex": 0,
+            "data": [
+                3.73,
+                3.64,
+                3.64,
+                3.84,
+                3.83,
+                3.88
+            ],
+            "barCategoryGap": "20%",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "Major GPA",
+            "yAxisIndex": 1,
+            "data": [
+                3.84,
+                3.94,
+                3.72,
+                3.84,
+                3.81,
+                3.87
+            ],
+            "barCategoryGap": "20%",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "line",
+            "name": "Overall Credits",
+            "connectNulls": false,
+            "yAxisIndex": 2,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "step": false,
+            "data": [
+                [
+                    "16-17-1",
+                    26
+                ],
+                [
+                    "16-17-2",
+                    26.5
+                ],
+                [
+                    "17-18-1",
+                    22
+                ],
+                [
+                    "17-18-2",
+                    21
+                ],
+                [
+                    "18-19-1",
+                    19
+                ],
+                [
+                    "18-19-2",
+                    19
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            }
+        },
+        {
+            "type": "line",
+            "name": "Major Credits",
+            "connectNulls": false,
+            "yAxisIndex": 2,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "step": false,
+            "data": [
+                [
+                    "16-17-1",
+                    8
+                ],
+                [
+                    "16-17-2",
+                    4
+                ],
+                [
+                    "17-18-1",
+                    9
+                ],
+                [
+                    "17-18-2",
+                    14
+                ],
+                [
+                    "18-19-1",
+                    15
+                ],
+                [
+                    "18-19-2",
+                    15
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "Overall GPA",
+                "Major GPA",
+                "Overall Credits",
+                "Major Credits"
+            ],
+            "selected": {
+                "Overall GPA": true,
+                "Major GPA": true
+            },
+            "show": true
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "axis",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "cross"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "16-17-1",
+                "16-17-2",
+                "17-18-1",
+                "17-18-2",
+                "18-19-1",
+                "18-19-2"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "GPA",
+            "show": false,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "position": "right",
+            "offset": 80,
+            "splitNumber": 5,
+            "min": 3.3,
+            "max": 4,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        },
+        {
+            "type": "value",
+            "name": "GPA",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "position": "left",
+            "offset": 0,
+            "splitNumber": 5,
+            "min": 3.3,
+            "max": 4,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        },
+        {
+            "type": "value",
+            "name": "Credits",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "position": "right",
+            "offset": 0,
+            "splitNumber": 5,
+            "min": 0,
+            "max": 30,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "GPA & Credits"
+        }
+    ],
+    "grid": [
+        {
+            "left": "5%",
+            "right": "20%"
+        }
+    ]
+};
+        chart_fa51485883664db9a4ec133ff8c4593c.setOption(option_fa51485883664db9a4ec133ff8c4593c);
+    </script>
+</body>
+</html>
