@@ -26,5 +26,8 @@ $$
 \hat{\mathbf{\beta}} = (\mathbf{X'X})^{-1}\mathbf{X'y}
 $$
 
+$$
+T=-2\left\{\ell\left(\hat{\boldsymbol{\theta}}_{H_{0}}| Y_{\mathrm{obs}}\right)-\ell\left(\hat{\boldsymbol{\theta}} | Y_{\mathrm{obs}}\right)\right\}
+$$
 
 
