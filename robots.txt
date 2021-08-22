@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://claude9493.github.io/sitemap.xml
