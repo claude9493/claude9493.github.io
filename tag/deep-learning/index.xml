@@ -17,11 +17,14 @@
       <link>https://claude9493.github.io/project/graph-neural-networks/</link>
       <pubDate>Sun, 05 Sep 2021 23:47:30 +0800</pubDate>
       <guid>https://claude9493.github.io/project/graph-neural-networks/</guid>
-      <description>&lt;p&gt;I am currently learning some basic concepts related to Graph Neural Networks (GNN) and representation learning.&lt;/p&gt;
-&lt;h2 id=&#34;node2vec-simulation-of-biased-random-walks&#34;&gt;Node2Vec: simulation of biased random walks&lt;/h2&gt;
+      <description>&lt;blockquote&gt;
+&lt;p&gt;I am currently learning some basic concepts related to Graph Neural Networks (GNN) and representation learning.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;node2vec-simulations-of-biased-random-walks&#34;&gt;Node2Vec: simulations of biased random walks&lt;/h2&gt;
+&lt;p&gt;I use this open-source &lt;a href=&#34;https://github.com/eliorc/node2vec&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;node2vec&lt;/a&gt; implementation to simulate biased random walks in the node2vec algorithm. Following two videos illustrate the in-out parameter $q$&amp;rsquo;s role played in random walks with fixed return parameter $p$, i.e. a &amp;ldquo;ratio&amp;rdquo; of BFS vs. DFS.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;High in-out parameter $q$, BFS
+&lt;p&gt;High in-out parameter $q$, Micro-view of neighbourhood, BFS
 
 
 
@@ -42,7 +45,7 @@
 &lt;/video&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Low in-out parameter $q$, DFS
+&lt;p&gt;Low in-out parameter $q$, Macro-view of neighbourhood, DFS
 
 
 
