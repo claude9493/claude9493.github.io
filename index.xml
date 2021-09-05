@@ -5,12 +5,66 @@
     <link>https://claude9493.github.io/</link>
       <atom:link href="https://claude9493.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Yun Zhang</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 05 Sep 2021 23:47:30 +0800</lastBuildDate>
     <image>
       <url>https://claude9493.github.io/media/icon_hu182a187efcbb5983d11baccfdc1e2d93_53539_512x512_fill_lanczos_center_3.png</url>
       <title>Yun Zhang</title>
       <link>https://claude9493.github.io/</link>
     </image>
+    
+    <item>
+      <title>Graph Neural Networks</title>
+      <link>https://claude9493.github.io/project/graph-neural-networks/</link>
+      <pubDate>Sun, 05 Sep 2021 23:47:30 +0800</pubDate>
+      <guid>https://claude9493.github.io/project/graph-neural-networks/</guid>
+      <description>&lt;p&gt;I am currently learning some basic concepts related to Graph Neural Networks (GNN) and representation learning.&lt;/p&gt;
+&lt;h2 id=&#34;node2vec-simulation-of-biased-random-walks&#34;&gt;Node2Vec: simulation of biased random walks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;High in-out parameter $q$, BFS
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video controls  &gt;
+  &lt;source src=&#34;https://claude9493.github.io/project/graph-neural-networks/biased-random-walk-BFS.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Low in-out parameter $q$, DFS
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video controls  &gt;
+  &lt;source src=&#34;https://claude9493.github.io/project/graph-neural-networks/biased-random-walk-DFS.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title></title>

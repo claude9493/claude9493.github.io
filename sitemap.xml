@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://claude9493.github.io/tag/deep-learning/</loc>
+    <lastmod>2021-09-05T23:47:30+08:00</lastmod>
+  </url><url>
+    <loc>https://claude9493.github.io/project/graph-neural-networks/</loc>
+    <lastmod>2021-09-05T23:47:30+08:00</lastmod>
+  </url><url>
+    <loc>https://claude9493.github.io/project/</loc>
+    <lastmod>2021-09-05T23:47:30+08:00</lastmod>
+  </url><url>
+    <loc>https://claude9493.github.io/tags/</loc>
+    <lastmod>2021-09-05T23:47:30+08:00</lastmod>
+  </url><url>
+    <loc>https://claude9493.github.io/</loc>
+    <lastmod>2021-09-05T23:47:30+08:00</lastmod>
+  </url><url>
     <loc>https://claude9493.github.io/admin/</loc>
   </url><url>
     <loc>https://claude9493.github.io/categories/</loc>
@@ -13,9 +28,5 @@
     <loc>https://claude9493.github.io/publication/</loc>
   </url><url>
     <loc>https://claude9493.github.io/event/</loc>
-  </url><url>
-    <loc>https://claude9493.github.io/tags/</loc>
-  </url><url>
-    <loc>https://claude9493.github.io/</loc>
   </url>
 </urlset>
